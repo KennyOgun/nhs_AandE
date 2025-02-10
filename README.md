@@ -7,8 +7,6 @@ This project analyzes and predicts NHS Accident & Emergency (A&E) performance, f
 ## 🎯 Key Objectives
 - **Understand** patterns in NHS A&E waiting times.
 - **Analyze** key factors affecting delays in patient admissions.
-- **Predict** A&E performance trends using machine learning.
-- **Develop** an interactive **Streamlit Web App** to visualize insights.
 
 ## 📂 Dataset
 The dataset consists of NHS A&E waiting times and admissions data, including features such as:
@@ -32,12 +30,7 @@ The dataset consists of NHS A&E waiting times and admissions data, including fea
    - High correlation between `PatientsOver4HrsWait` and `PatientsOver12HrsWait`.
    - Increasing long waits over time, especially post-2020.
    - Total admissions show moderate correlation with long waits.
-4. **Machine Learning (Planned)**:
-   - Regression models to predict future wait times.
-   - Classification models to identify high-risk periods.
-5. **Interactive Streamlit App**:
-   - Visualizes trends, distributions, and correlations.
-   - Allows users to explore NHS A&E performance interactively.
+
 
 ## 📊 Key Findings
 - The number of patients waiting over 4 hours is significantly higher than those waiting over 12 hours.
@@ -48,17 +41,9 @@ The dataset consists of NHS A&E waiting times and admissions data, including fea
 ## 🚀 How to Run the Project
 ### 1️⃣ Clone the Repository:
 ```sh
- git clone https://github.com/yourusername/nhs-ae-waiting-times.git
- cd nhs-ae-waiting-times
+ git clone https://github.com/KennyOgun/nhs-AandE.git
 ```
-### 2️⃣ Install Dependencies:
-```sh
-pip install -r requirements.txt
-```
-### 3️⃣ Run the Streamlit App:
-```sh
-streamlit run app.py
-```
+
 
 ## 📌 Future Enhancements
 - Implement time series forecasting for A&E wait times.
@@ -70,7 +55,6 @@ This project is open-source and available under the MIT License.
 
 ## 🙌 Acknowledgments
 - NHS England for providing A&E waiting times data.
-- Open-source contributors and the data science community.
 
 ---
 **Author:** Kehinde Ogundana  
